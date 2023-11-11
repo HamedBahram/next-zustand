@@ -38,7 +38,7 @@ export default function Task({
           xmlns='http://www.w3.org/2000/svg'
           viewBox='0 0 24 24'
           fill='currentColor'
-          className='h-5 w-5 text-rose-400'
+          className='h-5 w-5 text-gray-500 hover:text-rose-400'
         >
           <path
             fillRule='evenodd'
