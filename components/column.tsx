@@ -14,7 +14,7 @@ export default function Column({
   const tasks = useTaskStore(state => state.tasks)
   const filteredTasks = useMemo(
     () => tasks.filter(task => task.status === status),
-    [tasks]
+    [tasks, status]
   )
 
   const updateTask = useTaskStore(state => state.updateTask)
